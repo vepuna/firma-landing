@@ -17,7 +17,10 @@ dd {
 li {
   list-style-type : none;
 }
-
+a {
+  text-decoration: none;
+  color: rgba(34, 34, 34, 0.75);
+}
 *,
 *::before,
 *::after {
@@ -31,15 +34,18 @@ li {
   margin: 0 auto;
 }
 /* Navigation */
-.nav-header{
+.nav-header-container{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
 }
 .logo{
   display: flex;
 }
 #logo-text {
+  padding-left: 10px;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
@@ -48,5 +54,20 @@ li {
 .nav-bar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
+#active {
+  color: #DAA520;
+  font-weight: 800;
+}
+#button {
+  padding: 9px 36px;
+  border: 1px solid #3E3F43;
+  border-radius: 8px;
+}
+
