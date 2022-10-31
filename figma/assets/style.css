@@ -1,0 +1,52 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+li {
+  list-style-type : none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Navigation */
+.nav-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+}
+#logo-text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
