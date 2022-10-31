@@ -71,3 +71,44 @@ a {
   border-radius: 8px;
 }
 
+/* header title */
+.header-title-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  position: relative;
+}
+.header-text {
+
+}
+#sup-title{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+#title{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+}
+.header-figure{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 370px;
+  height: 800px;
+  background: #F9BDBD;
+  z-index: -2;
+  border-bottom-left-radius: 150px;
+}
+.flower {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 370px;
+  height: 800px;
+  background: #F9BDBD;
+  z-index: -1;
+}
